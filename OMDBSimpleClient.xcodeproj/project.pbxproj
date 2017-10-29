@@ -11,12 +11,18 @@
 		1F58204FC9658B387631068B /* Pods_OMDBSimpleClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FA574CD553BA9CD310C7AE /* Pods_OMDBSimpleClient.framework */; };
 		45BEA303D1739950AE2D6DC7 /* Pods_OMDBSimpleClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE0D819392E2ECF68EEA098 /* Pods_OMDBSimpleClientTests.framework */; };
 		ECCA27C11FA4EE5100D4CFD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA27C01FA4EE5100D4CFD5 /* AppDelegate.swift */; };
-		ECCA27C31FA4EE5100D4CFD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA27C21FA4EE5100D4CFD5 /* ViewController.swift */; };
-		ECCA27C61FA4EE5100D4CFD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCA27C41FA4EE5100D4CFD5 /* Main.storyboard */; };
+		ECCA27C31FA4EE5100D4CFD5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA27C21FA4EE5100D4CFD5 /* MainViewController.swift */; };
 		ECCA27C81FA4EE5100D4CFD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCA27C71FA4EE5100D4CFD5 /* Assets.xcassets */; };
-		ECCA27CB1FA4EE5100D4CFD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCA27C91FA4EE5100D4CFD5 /* LaunchScreen.storyboard */; };
 		ECCA27D61FA4EE5100D4CFD5 /* OMDBSimpleClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA27D51FA4EE5100D4CFD5 /* OMDBSimpleClientTests.swift */; };
 		ECCA27E11FA4EE5100D4CFD5 /* OMDBSimpleClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA27E01FA4EE5100D4CFD5 /* OMDBSimpleClientUITests.swift */; };
+		ECCA27F11FA5087E00D4CFD5 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCA27F01FA5087E00D4CFD5 /* MainViewController.xib */; };
+		ECCA27F41FA50C2500D4CFD5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA27F21FA50C2500D4CFD5 /* SearchViewController.swift */; };
+		ECCA27F51FA50C2500D4CFD5 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCA27F31FA50C2500D4CFD5 /* SearchViewController.xib */; };
+		ECCA27F91FA50C6A00D4CFD5 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA27F71FA50C6A00D4CFD5 /* FavoritesViewController.swift */; };
+		ECCA27FA1FA50C6A00D4CFD5 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCA27F81FA50C6A00D4CFD5 /* FavoritesViewController.xib */; };
+		ECCA27FE1FA50C8A00D4CFD5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA27FC1FA50C8A00D4CFD5 /* DetailViewController.swift */; };
+		ECCA27FF1FA50C8A00D4CFD5 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCA27FD1FA50C8A00D4CFD5 /* DetailViewController.xib */; };
+		ECCA28021FA57D6000D4CFD5 /* ViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECCA28011FA57D6000D4CFD5 /* ViewControllerExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +51,8 @@
 		DE0D922AF19E214C280F9FBF /* Pods-OMDBSimpleClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDBSimpleClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OMDBSimpleClientTests/Pods-OMDBSimpleClientTests.release.xcconfig"; sourceTree = "<group>"; };
 		ECCA27BD1FA4EE5100D4CFD5 /* OMDBSimpleClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMDBSimpleClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCA27C01FA4EE5100D4CFD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ECCA27C21FA4EE5100D4CFD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ECCA27C51FA4EE5100D4CFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECCA27C21FA4EE5100D4CFD5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ECCA27C71FA4EE5100D4CFD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ECCA27CA1FA4EE5100D4CFD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ECCA27CC1FA4EE5100D4CFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ECCA27D11FA4EE5100D4CFD5 /* OMDBSimpleClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMDBSimpleClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCA27D51FA4EE5100D4CFD5 /* OMDBSimpleClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDBSimpleClientTests.swift; sourceTree = "<group>"; };
@@ -56,6 +60,14 @@
 		ECCA27DC1FA4EE5100D4CFD5 /* OMDBSimpleClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMDBSimpleClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECCA27E01FA4EE5100D4CFD5 /* OMDBSimpleClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OMDBSimpleClientUITests.swift; sourceTree = "<group>"; };
 		ECCA27E21FA4EE5100D4CFD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCA27F01FA5087E00D4CFD5 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		ECCA27F21FA50C2500D4CFD5 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		ECCA27F31FA50C2500D4CFD5 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		ECCA27F71FA50C6A00D4CFD5 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		ECCA27F81FA50C6A00D4CFD5 /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		ECCA27FC1FA50C8A00D4CFD5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ECCA27FD1FA50C8A00D4CFD5 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		ECCA28011FA57D6000D4CFD5 /* ViewControllerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtensions.swift; sourceTree = "<group>"; };
 		F369A8DEA0D088F627171A2A /* Pods-OMDBSimpleClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDBSimpleClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OMDBSimpleClientTests/Pods-OMDBSimpleClientTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FDE0D819392E2ECF68EEA098 /* Pods_OMDBSimpleClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OMDBSimpleClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEA246D377F010BDEE292C37 /* Pods-OMDBSimpleClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OMDBSimpleClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-OMDBSimpleClient/Pods-OMDBSimpleClient.release.xcconfig"; sourceTree = "<group>"; };
@@ -137,11 +149,8 @@
 		ECCA27BF1FA4EE5100D4CFD5 /* OMDBSimpleClient */ = {
 			isa = PBXGroup;
 			children = (
-				ECCA27C01FA4EE5100D4CFD5 /* AppDelegate.swift */,
-				ECCA27C21FA4EE5100D4CFD5 /* ViewController.swift */,
-				ECCA27C41FA4EE5100D4CFD5 /* Main.storyboard */,
+				ECCA27EE1FA5046200D4CFD5 /* Classes */,
 				ECCA27C71FA4EE5100D4CFD5 /* Assets.xcassets */,
-				ECCA27C91FA4EE5100D4CFD5 /* LaunchScreen.storyboard */,
 				ECCA27CC1FA4EE5100D4CFD5 /* Info.plist */,
 			);
 			path = OMDBSimpleClient;
@@ -163,6 +172,55 @@
 				ECCA27E21FA4EE5100D4CFD5 /* Info.plist */,
 			);
 			path = OMDBSimpleClientUITests;
+			sourceTree = "<group>";
+		};
+		ECCA27EE1FA5046200D4CFD5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA27C01FA4EE5100D4CFD5 /* AppDelegate.swift */,
+				ECCA27EF1FA5048700D4CFD5 /* Main */,
+				ECCA27F61FA50C3200D4CFD5 /* Search */,
+				ECCA27FB1FA50C6F00D4CFD5 /* Favorites */,
+				ECCA28001FA50C8E00D4CFD5 /* Detail */,
+				ECCA28011FA57D6000D4CFD5 /* ViewControllerExtensions.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ECCA27EF1FA5048700D4CFD5 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA27C21FA4EE5100D4CFD5 /* MainViewController.swift */,
+				ECCA27F01FA5087E00D4CFD5 /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		ECCA27F61FA50C3200D4CFD5 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA27F21FA50C2500D4CFD5 /* SearchViewController.swift */,
+				ECCA27F31FA50C2500D4CFD5 /* SearchViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		ECCA27FB1FA50C6F00D4CFD5 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA27F71FA50C6A00D4CFD5 /* FavoritesViewController.swift */,
+				ECCA27F81FA50C6A00D4CFD5 /* FavoritesViewController.xib */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		ECCA28001FA50C8E00D4CFD5 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA27FC1FA50C8A00D4CFD5 /* DetailViewController.swift */,
+				ECCA27FD1FA50C8A00D4CFD5 /* DetailViewController.xib */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,9 +339,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCA27CB1FA4EE5100D4CFD5 /* LaunchScreen.storyboard in Resources */,
 				ECCA27C81FA4EE5100D4CFD5 /* Assets.xcassets in Resources */,
-				ECCA27C61FA4EE5100D4CFD5 /* Main.storyboard in Resources */,
+				ECCA27F11FA5087E00D4CFD5 /* MainViewController.xib in Resources */,
+				ECCA27FF1FA50C8A00D4CFD5 /* DetailViewController.xib in Resources */,
+				ECCA27FA1FA50C6A00D4CFD5 /* FavoritesViewController.xib in Resources */,
+				ECCA27F51FA50C2500D4CFD5 /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,7 +528,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECCA27C31FA4EE5100D4CFD5 /* ViewController.swift in Sources */,
+				ECCA27F41FA50C2500D4CFD5 /* SearchViewController.swift in Sources */,
+				ECCA27C31FA4EE5100D4CFD5 /* MainViewController.swift in Sources */,
+				ECCA27FE1FA50C8A00D4CFD5 /* DetailViewController.swift in Sources */,
+				ECCA27F91FA50C6A00D4CFD5 /* FavoritesViewController.swift in Sources */,
+				ECCA28021FA57D6000D4CFD5 /* ViewControllerExtensions.swift in Sources */,
 				ECCA27C11FA4EE5100D4CFD5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,25 +567,6 @@
 			targetProxy = ECCA27DD1FA4EE5100D4CFD5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		ECCA27C41FA4EE5100D4CFD5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECCA27C51FA4EE5100D4CFD5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ECCA27C91FA4EE5100D4CFD5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ECCA27CA1FA4EE5100D4CFD5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ECCA27E31FA4EE5100D4CFD5 /* Debug */ = {

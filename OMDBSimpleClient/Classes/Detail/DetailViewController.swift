@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailViewController.swift
 //  OMDBSimpleClient
 //
 //  Created by Daniel San on 28/10/17.
@@ -8,11 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailViewController: UIViewController {
+    
+    init() {
+        super.init(nibName: "DetailViewController", bundle: nil)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +29,4 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
 }
-
